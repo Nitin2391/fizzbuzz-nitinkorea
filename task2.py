@@ -1,16 +1,14 @@
-import os
+import os 
 
 folders = {}
 
 #d=directories, sd = subdirectories
 def directory_list(rootdir):
-    for  d, sd in os.walk():
-        for folders in d:
-            folders.append(os.path.join(d, folders)
+        for  d, sd in os.walk():
+             for files in d:
+                files.append(os.path.join(d, files))
 
-for sd in folders:
+for sd in files:
     print(sd)
-
-directory_list_list(./)
 
 
