@@ -3,6 +3,7 @@ infile = open(fname, 'r')
 lines = 0
 words = 0
 characters = 0
+numbers=0
 def l33t(word,infile):
 	if char in word:
 		if char in infile:
@@ -21,6 +22,8 @@ alphabets = line.split()
 lines = lines + 1
 words = words + len(alphabets)
 characters = characters + len(line)
+numbers=numbers+len(numbers)
 print(lines)
 print(words)
 print(characters)
+print(numbers)
